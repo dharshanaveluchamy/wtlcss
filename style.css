@@ -2,13 +2,13 @@ body {
             background-color: #F4D474;
             display: flex;
             justify-content: center;
-            align-items: center; /* Center vertically */
+            align-items: center; 
             padding: 20px;
             font-family: Arial, sans-serif;
-            height: 100vh; /* Set body height to full viewport height */
+            height: 100vh; 
         }
         .container {
-            width: 1000px; /* Fixed width for container */
+            width: 1000px; 
             padding: 20px;
             background-color: #FAF3E3;
             border-radius: 10px;
@@ -18,15 +18,15 @@ body {
         }
         .topics {
             background-color: #EF5253;
-            width: 250px; /* Fixed width for topics */
+            width: 250px; 
             padding-right: 20px;
-            overflow-y: auto; /* Enable scrolling if content exceeds height */
-            z-index: 1; /* Ensure topics are above content */
+            overflow-y: auto; 
+            z-index: 1; 
             display: flex;
             flex-direction: column;
-            justify-content: center; /* Center content horizontally */
-            align-items: center; /* Center content vertically */
-            text-align: center; /* Center text horizontally */
+            justify-content: center; 
+            align-items: center; 
+            text-align: center; 
         }
         .topics img {
             width: 50%;
@@ -34,17 +34,17 @@ body {
             margin-bottom: 25px;
         }
         .content-wrapper {
-            flex: 1; /* Flex to fill remaining space */
-            padding-left: 20px; /* Add some padding for content */
-            padding-top: 20px; /* Add padding top for better appearance */
-            position: relative; /* Set relative positioning */
-            z-index: 0; /* Ensure content stays behind topics */
+            flex: 1; 
+            padding-left: 20px; 
+            padding-top: 20px; 
+            position: relative; 
+            z-index: 0; 
             display: flex;
-            justify-content: center; /* Center content horizontally */
-            align-items: center; /* Center content vertically */
+            justify-content: center;
+            align-items: center; 
         }
         .content {
-            width: 100%; /* Ensure content fills available space */
-            text-align: center; /* Center the content horizontally */
+            width: 100%; 
+            text-align: center; 
 font-size: 1.2em;
         }
