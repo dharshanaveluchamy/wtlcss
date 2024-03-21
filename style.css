@@ -1,0 +1,50 @@
+body {
+            background-color: #F4D474;
+            display: flex;
+            justify-content: center;
+            align-items: center; /* Center vertically */
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            height: 100vh; /* Set body height to full viewport height */
+        }
+        .container {
+            width: 1000px; /* Fixed width for container */
+            padding: 20px;
+            background-color: #FAF3E3;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            position: relative;
+        }
+        .topics {
+            background-color: #EF5253;
+            width: 250px; /* Fixed width for topics */
+            padding-right: 20px;
+            overflow-y: auto; /* Enable scrolling if content exceeds height */
+            z-index: 1; /* Ensure topics are above content */
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Center content horizontally */
+            align-items: center; /* Center content vertically */
+            text-align: center; /* Center text horizontally */
+        }
+        .topics img {
+            width: 50%;
+            border-radius: 50px;
+            margin-bottom: 25px;
+        }
+        .content-wrapper {
+            flex: 1; /* Flex to fill remaining space */
+            padding-left: 20px; /* Add some padding for content */
+            padding-top: 20px; /* Add padding top for better appearance */
+            position: relative; /* Set relative positioning */
+            z-index: 0; /* Ensure content stays behind topics */
+            display: flex;
+            justify-content: center; /* Center content horizontally */
+            align-items: center; /* Center content vertically */
+        }
+        .content {
+            width: 100%; /* Ensure content fills available space */
+            text-align: center; /* Center the content horizontally */
+font-size: 1.2em;
+        }
